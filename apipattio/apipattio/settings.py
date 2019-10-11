@@ -84,7 +84,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'api_pattio',
         'USER': 'root',
-        'PASSWORD': '',
+        'PASSWORD': 'alojomora42',
         'HOST': 'localhost',
         'PORT': '3306',
         'OPTIONS' :{
