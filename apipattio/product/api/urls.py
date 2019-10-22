@@ -9,6 +9,6 @@ from .views import (
 
 urlpatterns = [
   url( 'category', CategoryListAPIView.as_view(), name='category_list'),
-  url( '/', ProductListAPIView.as_view(), name='list'),
-  url( '/product_detail/<int:pk>', ProductDetailAPIView.as_view(), name='product_detail'),
+  url( '', ProductListAPIView.as_view(), name='list'),
+  url( 'product_detail/<int:pk>', ProductDetailAPIView.as_view(), name='product_detail'),
 ]
